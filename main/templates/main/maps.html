@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="static/css/maps.css">
 
     <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 
@@ -146,9 +148,8 @@
         display: none;
         }
         }
+
     </style>
-
-
 </head>
 <body>
     <!-- {% block body %}
@@ -222,7 +223,8 @@
         {% load static %}
         <script src="{% static '/js/maps.js' %}"></script>
     </section> 
-
+        <script src="{% static 'maps.js' %}"></script>
+        
     <!-- footer -->
     <footer>
         <div class="inner">
