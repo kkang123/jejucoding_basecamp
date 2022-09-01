@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cafelist</title>
+</head>
+<body>
+	<h1>cafedetails</h1>
+	<p>{{cafe.name}}</p>
+	<p>{{cafe.content}}</p>
+    {% if cafe.mainphoto %}
+      <img src="{{ cafe.mainphoto.url }}">
+    {% endif %}
+	<a href="/cafelist/">목록</a>
+    <div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jecobe.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>

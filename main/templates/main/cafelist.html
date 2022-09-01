@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>cafelist</title>
+</head>
+<body>
+  <h1>cafelist</h1>
+  <table>
+    {% for cafe in cafes %}
+    <tr onclick="location.href='/cafelist/{{ cafe.pk }}'">
+      <td>{{ cafe.name }}</td>
+      <td>{{ cafe.content }}</td>
+      <td>{{ cafe.published_date }}</td>
+      <td>{{ cafe.modified_date }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
