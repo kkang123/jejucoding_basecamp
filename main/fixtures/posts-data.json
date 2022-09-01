@@ -1,4 +1,43 @@
 [
+    {
+    "model": "main.cafe",
+    "pk":"1",
+    "fields": {
+      "name":"이큐티 EQTY",
+      "location": "제주시",
+      "address": "제주 제주시 인다13길 28 1층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/eqtykr/"
+    }
+  },
+  {
+    "model": "main.cafe",
+    "pk":"2",
+    "fields": {
+      "name":"카페닐스",
+      "location": "한림읍",
+      "address": "제주 제주시 한림읍 일주서로 5153",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/cafenils/"
+    }
+  },
+  {
+    "model": "main.cafe",
+    "pk":"3",
+    "fields": {
+      "name":"카페블루하우스 모슬포점",
+      "location": "대정읍",
+      "address": "제주 서귀포시 대정읍 하모중앙로 22 1층 카페블루하우스 모슬포점",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/bluehaus_jeju/"
+    }
+  },
   {
     "model": "main.cafe",
     "pk":"4",
