@@ -32,12 +32,11 @@
 3.1 프로젝트 구조
 
 ```
-📦 jejucoding			                          
-├─ .gitignore
-├─ README.md
-├─ Dockerfile
-├─ Docker compose
-└─ mysite			                         
+📦 jejucoding	
+   ├─ .gitignore
+   ├─ README.md
+   ├─ Dockerfile
+   ├─ Docker compose		
    ├─ config/	          
    │  ├─ __init__.py
    │  ├─ asgi.py
@@ -45,6 +44,8 @@
    │  ├─ urls.py
    │  └─ wsgi.py
    ├─ main/
+      ├─ templates/	
+   │  └─ main/
    │  ├─ __init__.py
    │  ├─ admin.py
    │  ├─ apps.py
@@ -52,11 +53,8 @@
    │  ├─ tests.py
    │  └─ views.py
    ├─ static/
-   │  └─ main/
    ├─ media/
-   │  └─ main/
-   ├─ templates/	
-   │  └─ main/
+   ├─ venv/
    └─ manage.py
    └─ db.sqlite3
 
