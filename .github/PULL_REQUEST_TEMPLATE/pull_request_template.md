@@ -1,6 +1,6 @@
 ## Summary 
 
-## Discribe your changes
+## Describe your changes
 
 ## Background
 resolve [#이슈]
