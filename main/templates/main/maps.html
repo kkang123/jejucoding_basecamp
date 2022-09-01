@@ -10,11 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
-    
+
     <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+
     <style>
-        /* header */
-        * {
+          /* header */
+          * {
             margin: 0;
             padding: 0;
             font-family: 'IBM Plex Sans KR', sans-serif;;
@@ -112,9 +114,6 @@
             display: block;
         }
 
-        footer .menu li a.green {
-            color: #669900
-        }
         
         footer .copyright {
             color: #999;
@@ -147,8 +146,9 @@
         display: none;
         }
         }
-
     </style>
+
+
 </head>
 <body>
     <!-- {% block body %}
@@ -219,8 +219,9 @@
         <div id="map">
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=63faba80d38ca768f7198e1f59cd462a"></script>
         </div>
-        <script src="maps.js"></script>
-    </section>
+        {% load static %}
+        <script src="{% static '/js/maps.js' %}"></script>
+    </section> 
 
     <!-- footer -->
     <footer>

@@ -29,3 +29,6 @@ def cafedetails(request, pk):
     }
     
     return render(request, 'main/cafedetails.html', context)
+
+def maps(request):
+    return render(request, 'main/maps.html')
