@@ -21,6 +21,7 @@ class Cafe(models.Model):
     ]
     
     location = models.CharField(max_length=50, choices=locations)
+    address = models.CharField(max_length=50, default='')
     mainphoto = models.ImageField(blank=True, null=True)
     published_date = models.DateTimeField(auto_now_add=True)
     modified_date = models.DateTimeField(auto_now=True)
