@@ -74,7 +74,7 @@
 | 08.30 | study for Backend |:---:|
 | 08.31 | DB migration error! change repository |:---:|
 | 09.01 | create baseline, solved error, FE, BE, DB | [#2](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/2), [#3](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/3), [#4](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/4), [#5](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/5), [#6](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/6), [#8](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/8) |
-| 09.02 | upodate docker, AWS, readme.md |:---:|
+| 09.02 | update docker, AWS, readme.md |:---:|
 
 
 ## 4. Usage
