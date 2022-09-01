@@ -1,0 +1,404 @@
+[
+  {
+    "model": "main.cafe",
+    "pk":"4",
+    "fields": {
+      "name":"오피스제주 사계점",
+      "location": "서귀포시",
+      "address": "제주특별자치도 서귀포시 안덕면 향교로 214",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "http://o-peace.com/"
+    }
+  },
+  {
+    "model": "main.cafe",
+    "pk":"5",
+    "fields": {
+      "name": "카페477플러스",
+      "location": "구좌읍",
+      "address": "리뷰 7제주특별자치도 제주시 구좌읍 세평항로 46-9 2층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/sehwa.happy/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"6",
+    "fields": {
+      "name": "스타트업베이",
+      "location": "서귀포시",
+      "address": "제주특별자치도 서귀포시 중정로 86",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://blog.naver.com/startupbay"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"7",
+    "fields": {
+      "name":"W360",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 동문로9길 13-1 제주지방기상청",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "http://www.jccei.kr/wspace/intro.htm"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"8",
+    "fields": {
+      "name":"루트330 ICT",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 첨단로 330 A동 2층 Route330 ICT",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://route330ict.com/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"9",
+    "fields": {
+      "name":"신한 스퀘어브릿지 제주",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 신광로 49",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.facebook.com/S2BridgeJEJU"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"10",
+    "fields": {
+      "name":"제주창조경제혁신센터",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 중앙로 217 J-SPACE",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://ccei.creativekorea.or.kr/jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"11",
+    "fields": {
+      "name":"제주시소통협력센터",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 관덕로 44 제주시 소통협력센터 모두의실험실",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.jejusotong.kr/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"12",
+    "fields": {
+      "name":"브이랩365",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 아란3길 13-3 아라지엘지 2층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/vlab365.jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"13",
+    "fields": {
+      "name":"미유크",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 노형9길 9-3 2층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/miuq_jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"14",
+    "fields": {
+      "name":"바나나 오피스",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 원노형3길 4-9 바나나 오피스",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/banana_jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"15",
+    "fields": {
+      "name":"호호플러스",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 신산마을길 184 1층 HOHOPLUS",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://blog.naver.com/hohoplus0316"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"16",
+    "fields": {
+      "name":"오피스제주 사계점",
+      "location": "서귀포시",
+      "address": "제주특별자치도 서귀포시 안덕면 향교로 214",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "http://o-peace.com/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"17",
+    "fields": {
+      "name":"맨써드림스페이스",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 신대로 145 맨써빌딩 1층 4층 6층 전관",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://maenswer.modoo.at/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"18",
+    "fields": {
+      "name":"기여오피스",
+      "location": "제주시",
+      "address": "제주특별자치도 제주시 오현길 27",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "http://office.yesroom.co.kr/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"19",
+    "fields": {
+      "name":"공유공간 이을",
+      "location": "서귀포시",
+      "address": "제주특별자치도 서귀포시 대정읍 에듀시티로50번길 6",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/the_sharing_place_ieul/"
+    }
+},
+    {
+    "model": "main.cafe",
+    "pk":"20",
+    "fields": {
+      "name":"ABC 에이팩토리베이커리카페",
+      "location": "제주시",
+      "address": "제주 제주시 탑동로 11",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/abc_bakery_jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"21",
+    "fields": {
+      "name":"고스란",
+      "location": "서귀포시",
+      "address": "제주 서귀포시 안덕면 병악로 81-40 1,2층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/gosran_official/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"22",
+    "fields": {
+      "name":"고요산책",
+      "location": "제주시",
+      "address": "제주 제주시 중앙로12길 5 1층 짙은 초록 외관",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/goyowalk_jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"23",
+    "fields": {
+      "name":"노론존 No Lone Zone",
+      "location": "제주시",
+      "address": "제주 제주시 도령로 50 이화오피스텔 중2층 노론존",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/nolonezone_coffee/"
+    }
+  },  {
+    "model": "main.cafe",
+    "pk":"24",
+    "fields": {
+      "name":"디벌트 에스프레소 바",
+      "location": "제주시",
+      "address": "제주 제주시 승천로 88 디벌트 에스프레소 바",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/divert_coffee/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"25",
+    "fields": {
+      "name":"래디컬브루잉클럽 애월점",
+      "location": "제주시",
+      "address": "제주 제주시 애월읍 애월해안로 226 호텔 SALT 건물 1층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/radicalbrewingclub/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"26",
+    "fields": {
+      "name":"멜버즈",
+      "location": "제주시",
+      "address": "제주 제주시 한라대학로 114 골든스퀘어 1층 멜버즈",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/melbuzz_slowcity/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"27",
+    "fields": {
+      "name":"모리노코에",
+      "location": "제주시",
+      "address": "제주 제주시 구남로2길 30",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/morinocoe/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"28",
+    "fields": {
+      "name":"브라운타임",
+      "location": "제주시",
+      "address": "제주 제주시 한경면 중산간서로 3647 1층",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/browntime_cafe/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"29",
+    "fields": {
+      "name":"서귀피안 베이커리",
+      "location": "서귀포시",
+      "address": "제주 서귀포시 성산읍 신양로122번길 17 2F",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/seogwipean_bakery/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"30",
+    "fields": {
+      "name":"에스프레소라운지",
+      "location": "제주시",
+      "address": "제주 제주시 한라대학로 1",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/espressolounge_jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"31",
+    "fields": {
+      "name":"의문당",
+      "location": "서귀포시",
+      "address": "제주 서귀포시 안덕면 신화역사로304번길 139 1층 의문당",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/jeju.uimundang/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"32",
+    "fields": {
+      "name":"에프터글로우",
+      "location": "제주시",
+      "address": "제주 제주시 간월동로 67-3",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/afterglow.coffee/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"33",
+    "fields": {
+      "name":"여누카페",
+      "location": "제주시",
+      "address": "제주 제주시 조천읍 남조로 1842 1층 여누카페",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/yeonu_jeju/"
+    }
+  },
+    {
+    "model": "main.cafe",
+    "pk":"34",
+    "fields": {
+      "name":"오후다섯시 두가지착각 조차도",
+      "location": "제주시",
+      "address": "제주 제주시 조천읍 조함해안로 273-37 오후다섯시두가지착각조차도",
+      "mainphoto": "",
+      "published_date": "2022-09-01 21:44",
+      "modified_date": "2022-09-01 21:44",
+      "url": "https://www.instagram.com/5pmillusion/"
+    }
+  }
+]

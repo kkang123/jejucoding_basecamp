@@ -25,7 +25,7 @@ class Cafe(models.Model):
     mainphoto = models.ImageField(blank=True, null=True)
     published_date = models.DateTimeField(auto_now_add=True)
     modified_date = models.DateTimeField(auto_now=True)
-    insta = models.TextField(null=True)
+    url = models.TextField(null=True)
     
     def __str__(self):
-        return self.name
+        return f'[{self.pk}]{self.name}'
