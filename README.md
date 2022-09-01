@@ -34,9 +34,11 @@
 ```
 📦 jejucoding	
    ├─ .gitignore
+   ├─ .github
    ├─ README.md
    ├─ Dockerfile
    ├─ Docker compose		
+   ├─ requirements.txt		
    ├─ config/	          
    │  ├─ __init__.py
    │  ├─ asgi.py
@@ -55,6 +57,7 @@
    │  ├─ tests.py
    │  └─ views.py
    ├─ static/
+   │  └─ css/
    ├─ media/
    ├─ venv/
    └─ manage.py
@@ -64,27 +67,24 @@
 
 3.1 개발 일정 
 
-| MM.DD | Issue | PR | 
+| MM.DD | Details | PR | 
 |---|:---:|:---:|
-| 08.28 |주제선정, role 선택, git(issue, PR) study, TDD study |:---:|
-| 08.29 |:---:|:---:|
-| 08.30 |:---:|:---:|
-| 08.31 |:---:|:---:|
-| 09.01 |:---:|:---:|
-| 09.02 |:---:|:---:|
+| 08.28 | project brainstorming, role, git(issue, PR) study, TDD study |:---:|
+| 08.29 | study for Frontend |:---:|
+| 08.30 | study for Backend |:---:|
+| 08.31 | DB migration error! change repository |:---:|
+| 09.01 | create baseline, solved error, FE, BE, DB | #2,3,4 |
+| 09.02 | upodate docker, AWS, readme.md |:---:|
 
 
 ## 4. Usage
-python v3.10.6, Django v, ...  
+python v3.8.8, Django v3.2
+
 ```
 ```
 
-## 5. UI / BM
 
-## 6. ERD 
-https://www.erdcloud.com/
-
-## 7. Finish
+## 5. Finish
 - 김서현
 - 김남우
 - 김지헌
