@@ -4,6 +4,8 @@
         "fields": {
             "name": "이큐티 EQTY",
             "location": "제주시",
+            "lat":"",
+            "lng":"",
             "address": "제주 제주시 인다13길 28 1층",
             "mainphoto": "",
             "url": "https://www.instagram.com/eqtykr/"
@@ -422,6 +424,8 @@
         "pk": "39",
         "fields": {
             "name": "에이바우트커피뷰 하귀포구점",
+            "lat": "",
+            "lng":"",
             "location": "애월읍",
             "address": "제주 제주시 애월읍 하귀12길 21-2 1~3층",
             "mainphoto": "",

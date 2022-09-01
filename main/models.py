@@ -19,7 +19,8 @@ class Cafe(models.Model):
         ('Andeok-myeon', '안덕면'),
         ('Daejeong-eup', '대정읍'),
     ]
-    
+    lat = models.FloatField(null =True)
+    lng = models.FloatField(null=True)
     location = models.CharField(max_length=50, choices=locations)
     address = models.CharField(max_length=50, default='')
     mainphoto = models.ImageField(blank=True, null=True)
