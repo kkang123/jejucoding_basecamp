@@ -1,10 +1,103 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Django!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>SpaceforDevelopers</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-	<h1>Test!</h1>
-	{% load static %}
-	<img src="{% static 'jeju.jpg' %}">
+    <!-- {% block body %}
+    {% endblock body %} -->
+    <header>
+        <section class="hbody">
+          <article class="nav">
+          <div class="title"><a href="./index.html">SpcaeForDevelopers</a></div>
+          <ul id="menu">
+            <li class="menu-item"><a href="./index.html">Home</a></li>
+            <li class="menu-item"><a href="./map.html">Map</a></li>
+            <li class="menu-item" onclick="kakaoLogin();">
+                <a href="javascript:void(0)">
+                    <span>Login</span></a>
+            </li>
+            <li onclick="kakaoLogout();">
+                <a onclick="alert('로그아웃되셨습니다.');" href="javascript:void(0)">
+                    <span>Logout</span>
+                </a>
+              </li>
+          </ul>
+          <!-- 카카오 스크립트 -->
+          <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+          <script>
+          Kakao.init('63faba80d38ca768f7198e1f59cd462a'); //발급받은 키 중 javascript키를 사용해준다.
+          console.log(Kakao.isInitialized()); // sdk초기화여부판단
+          //카카오로그인
+          function kakaoLogin() {
+              Kakao.Auth.login({
+                success: function (response) {
+                  Kakao.API.request({
+                    url: '/v2/user/me',
+                    success: function (response) {
+                        console.log(response)
+                    },
+                    fail: function (error) {
+                      console.log(error)
+                    },
+                  })
+                },
+                fail: function (error) {
+                  console.log(error)
+                },
+              })
+            }
+          //카카오로그아웃  
+          function kakaoLogout() {
+              if (Kakao.Auth.getAccessToken()) {
+                Kakao.API.request({
+                  url: '/v1/user/unlink',
+                  success: function (response) {
+                      console.log(response)
+                  },
+                  fail: function (error) {
+                    console.log(error)
+                  },
+                })
+                Kakao.Auth.setAccessToken(undefined)
+              }
+            }  
+            </script>
+          </ul>          
+          </article>
+        </section>
+    </header>
+
+    <section>
+        <div class="container">
+			{% load static %}
+			<img src="{% static 'Jeju.jpg' %}">
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="inner">
+            <ul class="menu">
+                <li><a href="https://github.com/kim-seo-hyun" target="_blank">김서현</a></li>
+                <li><a href="https://github.com/namwooktree" target="_blank">김남우</a></li>
+                <li><a href="https://github.com/kkang123" target="_blank">김지헌</a></li>
+                <li><a href="https://github.com/choidabom" target="_blank">최다봄</a></li>
+            </ul>
+
+            <p class="copyright">
+                &copy; <span class="this-year"></span> JejuCodingBaseCamp Hackerton. All Rights Reseved.
+            </p>
+        </div>
+    </footer>
 </body>
-</html>
+<html>
