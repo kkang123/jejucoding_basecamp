@@ -46,6 +46,8 @@
    ├─ main/
       ├─ templates/	
    │  └─ main/
+      ├─ fixtures/
+   │  └─ posts-data.json
    │  ├─ __init__.py
    │  ├─ admin.py
    │  ├─ apps.py
