@@ -135,6 +135,7 @@
             position: absolute;
             left: 0px;
             touch-action: auto;
+            object-fit: cover;
         }
 
         
@@ -152,12 +153,13 @@
     </style>
 </head>
 <body>
+
     <!-- {% block body %}
     {% endblock body %} -->
     <header>
         <section class="hbody">
           <article class="nav">
-          <div class="title"><a href="/index">SpcaeForDevelopers</a></div>
+          <div class="title"><a href="/index">SpaceForDevelopers</a></div>
           <ul id="menu">
             <li class="menu-item"><a href="/index">Home</a></li>
             <li class="menu-item"><a href="/">Map</a></li>
@@ -216,6 +218,7 @@
         </section>
     </header>
 
+
     <section>
         <div id="map">
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=63faba80d38ca768f7198e1f59cd462a"></script>
@@ -223,8 +226,7 @@
         {% load static %}
         <script src="{% static '/js/maps.js' %}"></script>
     </section> 
-        <script src="{% static 'maps.js' %}"></script>
-        
+
     <!-- footer -->
     <footer>
         <div class="inner">
