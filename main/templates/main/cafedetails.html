@@ -1,25 +1,321 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>cafelist</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>SpaceforDevelopers</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <style>
+        /* header */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'IBM Plex Sans KR', sans-serif;;
+        }
+
+        a { 
+            text-decoration: none;
+            color: inherit;
+        }
+
+        li { list-style-type: none; }
+
+        .hbody {
+            background-color: black;
+            width: 100%;
+            height: 100px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            color: white;
+        }
+
+        .title {
+            font-size: 1.5em;
+        }
+
+        .title > a {
+            color: white;
+        }
+
+        #menu {
+                display: flex;
+        }
+
+        #menu-item{
+            
+            flex: 1 1 auto;
+        }
+        #menu > li {
+            padding: 20px 30px;
+            font-size: 20px;
+        }
+
+        li > a {
+            color: white;
+        }
+
+
+        /* footer */
+        footer {
+            width: 100%;
+            position: absolute; 
+            background-color: #272727;
+            border-top: 1px solid #333;
+        }
+
+        footer .inner {
+            padding: 65px 0 65px 0;
+        }
+
+        footer .menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer .menu li {
+            position: relative;
+        }
+
+        footer .menu li::before {
+            content: "";
+            width: 3px;
+            height: 3px;
+            background-color: #555;
+            position: absolute;
+            top: 0;
+            right: -1px;
+            margin: auto;
+        }
+
+        footer .menu li:last-child::before {
+            display: none;
+        }
+
+        footer .menu li a {
+            color: #ccc;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 15px;
+            display: block;
+        }
+
+        footer .copyright {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+
+        }
+
+        footer .logo {
+            margin: 30px auto 0;
+        }
+
+        @media screen and (max-width: 700px) {
+            .nav {
+                padding: 30px 40px;
+            }
+
+            #menu {
+                display: none;
+            }
+        }
+
+        /* section 이미지 */
+        .container{
+            height:100vh;
+            /* width: 100vw; */
+        } 
+        img { 
+            width : 100%;
+            height: 100%; 
+        }
+
+        button.btn1 {
+            position: absolute;
+            width : 550px;
+            height: 120px; 
+            top: 450px;
+            left : 250px; 
+            opacity: 0;
+            cursor:pointer;
+            transform: rotate(-20deg);
+            border-radius: 50px 50px 50px 50px
+            }
+            
+
+        button.btn2 {
+            position: absolute;
+            width : 550px;
+            height: 120px; 
+            top: 600px;
+            left : 300px;
+            opacity: 0;
+            cursor:pointer;
+            transform: rotate(-20deg);
+            border-radius: 50px 50px 50px 50px
+        }
+
+        /* 매장 소개 */
+
+        #ab{
+            text-align:center;
+            margin: 20px;
+        }
+
+        .photo-container{
+            --column-width: 100%;
+            margin: 20px;
+        }
+
+        .photo-box { 
+            text-align: center;
+        }
+
+        img{
+            width: 40%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .list {
+            display: flex;
+        }
+</style>
+     
+    </style>
 </head>
 <body>
-	<h1>cafedetails</h1>
-	<p>{{cafe.name}}</p>
-	<p>{{cafe.content}}</p>
-    {% if cafe.mainphoto %}
-      <img src="{{ cafe.mainphoto.url }}">
-    {% endif %}
-	<a href="/cafelist/">목록</a>
-    <div id="disqus_thread"></div>
-<script>
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://jecobe.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <header>
+        <section class="hbody">
+          <article class="nav">
+            <div class="title">
+                <a class="list" href="/cafelist/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"  class="bi bi-chat-square-text" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </a>
+            </div>
+
+          <ul id="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li class="menu-item"><a href="/cafelist">Space list</a></li>
+            <li onclick="kakaoLogin();">
+                <a href="javascript:void(0)">
+                    <span>Login</span>
+                </a>
+              </li>
+              <li onclick="kakaoLogout();">
+                <a onclick="alert('로그아웃되셨습니다.');" href="javascript:void(0)">
+                    <span>Logout</span>
+                </a>
+              </li>
+          </ul>
+          <!-- 카카오 스크립트 -->
+          <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+          <script>
+          Kakao.init('63faba80d38ca768f7198e1f59cd462a'); //발급받은 키 중 javascript키를 사용해준다.
+          console.log(Kakao.isInitialized()); // sdk초기화여부판단
+          //카카오로그인
+          function kakaoLogin() {
+              Kakao.Auth.login({
+                success: function (response) {
+                  Kakao.API.request({
+                    url: '/v2/user/me',
+                    success: function (response) {
+                        console.log(response)
+                    },
+                    fail: function (error) {
+                      console.log(error)
+                    },
+                  })
+                },
+                fail: function (error) {
+                  console.log(error)
+                },
+              })
+            }
+          //카카오로그아웃  
+          function kakaoLogout() {
+              if (Kakao.Auth.getAccessToken()) {
+                Kakao.API.request({
+                  url: '/v1/user/unlink',
+                  success: function (response) {
+                      console.log(response)
+                  },
+                  fail: function (error) {
+                    console.log(error)
+                  },
+                })
+                Kakao.Auth.setAccessToken(undefined)
+              }
+            }  
+                </script>
+          </ul>          
+          </article>
+
+        </section>
+    </header>
+
+    <!-- cafe details -->
+    <section class="all">
+        <h1 id="ab">{{cafe.name}}</h1>
+        <div class="photo-container">
+            <div class="photo-box">
+                {% if cafe.mainphoto %}
+                <img src="{{ cafe.mainphoto.url }}">
+                {% endif %}
+            </div>
+        </div>
+	    <p>{{cafe.content}}</p>
+
+        <div id="disqus_thread"></div>
+        <script>
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://jecobe.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="inner">
+            <ul class="menu">
+                <li><a href="https://github.com/kim-seo-hyun" target="_blank">김서현</a></li>
+                <li><a href="https://github.com/namwooktree" target="_blank">김남우</a></li>
+                <li><a href="https://github.com/kkang123" target="_blank">김지헌</a></li>
+                <li><a href="https://github.com/choidabom" target="_blank">최다봄</a></li>
+            </ul>
+
+            <p class="copyright">
+                &copy; <span class="this-year"></span> JejuCodingBaseCamp Hackerton. All Rights Reseved.
+            </p>
+        </div>
+    </footer>
 </body>
-</html>
+<html>
