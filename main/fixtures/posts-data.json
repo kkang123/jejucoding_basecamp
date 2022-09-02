@@ -4,8 +4,8 @@
         "fields": {
             "name": "이큐티 EQTY",
             "location": "제주시",
-            "lat":"",
-            "lng":"",
+            "lat": "33.472399",
+            "lng": "126.548659",
             "address": "제주 제주시 인다13길 28 1층",
             "mainphoto": "",
             "url": "https://www.instagram.com/eqtykr/"
@@ -17,6 +17,8 @@
         "fields": {
             "name": "카페닐스",
             "location": "한림읍",
+            "lat": "33.409921",
+            "lng": "126.271560",
             "address": "제주 제주시 한림읍 일주서로 5153",
             "mainphoto": "",
             "url": "https://www.instagram.com/cafenils/"
@@ -28,6 +30,8 @@
         "fields": {
             "name": "카페블루하우스 모슬포점",
             "location": "대정읍",
+            "lat": "33.226042",
+            "lng": "126.252362",
             "address": "제주 서귀포시 대정읍 하모중앙로 22 1층 카페블루하우스 모슬포점",
             "mainphoto": "",
             "url": "https://www.instagram.com/bluehaus_jeju/"
@@ -39,6 +43,8 @@
         "fields": {
             "name": "오피스제주 사계점",
             "location": "서귀포시",
+            "lat": "33.234146",
+            "lng": "126.290500",
             "address": "제주특별자치도 서귀포시 안덕면 향교로 214",
             "mainphoto": "",
             "url": "http://o-peace.com/"
@@ -50,6 +56,8 @@
         "fields": {
             "name": "카페477플러스",
             "location": "구좌읍",
+            "lat": "33.526981",
+            "lng": "126.856059",
             "address": "리뷰 7제주특별자치도 제주시 구좌읍 세평항로 46-9 2층",
             "mainphoto": "",
             "url": "https://www.instagram.com/sehwa.happy/"
@@ -61,6 +69,8 @@
         "fields": {
             "name": "스타트업베이",
             "location": "서귀포시",
+            "lat": "33.248159",
+            "lng": "126.565451",
             "address": "제주특별자치도 서귀포시 중정로 86",
             "mainphoto": "",
             "url": "https://blog.naver.com/startupbay"
@@ -72,6 +82,8 @@
         "fields": {
             "name": "W360",
             "location": "제주시",
+            "lat": "33.514332",
+            "lng": "126.529610",
             "address": "제주특별자치도 제주시 동문로9길 13-1 제주지방기상청",
             "mainphoto": "",
             "url": "http://www.jccei.kr/wspace/intro.htm"
@@ -83,6 +95,8 @@
         "fields": {
             "name": "루트330 ICT",
             "location": "제주시",
+            "lat": "33.442315",
+            "lng": "126.567304",
             "address": "제주특별자치도 제주시 첨단로 330 A동 2층 Route330 ICT",
             "mainphoto": "",
             "url": "https://route330ict.com/"
@@ -94,6 +108,8 @@
         "fields": {
             "name": "신한 스퀘어브릿지 제주",
             "location": "제주시",
+            "lat": "33.487619",
+            "lng": "126.490278",
             "address": "제주특별자치도 제주시 신광로 49",
             "mainphoto": "",
             "url": "https://www.facebook.com/S2BridgeJEJU"
@@ -105,6 +121,8 @@
         "fields": {
             "name": "제주창조경제혁신센터",
             "location": "제주시",
+            "lat": "33.500305",
+            "lng": "126.529987",
             "address": "제주특별자치도 제주시 중앙로 217 J-SPACE",
             "mainphoto": "",
             "url": "https://ccei.creativekorea.or.kr/jeju/"
@@ -116,6 +134,8 @@
         "fields": {
             "name": "제주시소통협력센터",
             "location": "제주시",
+            "lat": "33.512814",
+            "lng": "126.523914",
             "address": "제주특별자치도 제주시 관덕로 44 제주시 소통협력센터 모두의실험실",
             "mainphoto": "",
             "url": "https://www.jejusotong.kr/"
@@ -127,6 +147,8 @@
         "fields": {
             "name": "브이랩365",
             "location": "제주시",
+            "lat": "33.476585",
+            "lng": "126.541519",
             "address": "제주특별자치도 제주시 아란3길 13-3 아라지엘지 2층",
             "mainphoto": "",
             "published_date": "2022-09-01 21:44",
@@ -140,6 +162,8 @@
         "fields": {
             "name": "미유크",
             "location": "제주시",
+            "lat": "33.483526",
+            "lng": "126.477391",
             "address": "제주특별자치도 제주시 노형9길 9-3 2층",
             "mainphoto": "",
             "url": "https://www.instagram.com/miuq_jeju/"
@@ -151,6 +175,8 @@
         "fields": {
             "name": "바나나 오피스",
             "location": "제주시",
+            "lat": "33.487215",
+            "lng": "126.485103",
             "address": "제주특별자치도 제주시 원노형3길 4-9 바나나 오피스",
             "mainphoto": "",
             "url": "https://www.instagram.com/banana_jeju/"
@@ -162,6 +188,8 @@
         "fields": {
             "name": "호호플러스",
             "location": "제주시",
+            "lat": "33.480518",
+            "lng": "126.456287",
             "address": "제주특별자치도 제주시 신산마을길 184 1층 HOHOPLUS",
             "mainphoto": "",
             "url": "https://blog.naver.com/hohoplus0316"
@@ -173,6 +201,8 @@
         "fields": {
             "name": "오피스제주 사계점",
             "location": "서귀포시",
+            "lat": "33.234139",
+            "lng": "126.290491",
             "address": "제주특별자치도 서귀포시 안덕면 향교로 214",
             "mainphoto": "",
             "url": "http://o-peace.com/"
@@ -184,6 +214,8 @@
         "fields": {
             "name": "맨써드림스페이스",
             "location": "제주시",
+            "lat": "33.484295",
+            "lng": "126.496697",
             "address": "제주특별자치도 제주시 신대로 145 맨써빌딩 1층 4층 6층 전관",
             "mainphoto": "",
             "url": "https://maenswer.modoo.at/"
@@ -195,6 +227,8 @@
         "fields": {
             "name": "기여오피스",
             "location": "제주시",
+            "lat": "33.507700",
+            "lng": "126.522366",
             "address": "제주특별자치도 제주시 오현길 27",
             "mainphoto": "",
             "url": "http://office.yesroom.co.kr/"
@@ -206,6 +240,8 @@
         "fields": {
             "name": "공유공간 이을",
             "location": "서귀포시",
+            "lat": "33.291059",
+            "lng": "126.283482",
             "address": "제주특별자치도 서귀포시 대정읍 에듀시티로50번길 6",
             "mainphoto": "",
             "url": "https://www.instagram.com/the_sharing_place_ieul/"
@@ -217,6 +253,8 @@
         "fields": {
             "name": "ABC 에이팩토리베이커리카페",
             "location": "제주시",
+            "lat": "33.516968",
+            "lng": "126.519170",
             "address": "제주 제주시 탑동로 11",
             "mainphoto": "",
             "url": "https://www.instagram.com/abc_bakery_jeju/"
@@ -228,6 +266,8 @@
         "fields": {
             "name": "고스란",
             "location": "서귀포시",
+            "lat": "33.283313",
+            "lng": "126.360277",
             "address": "제주 서귀포시 안덕면 병악로 81-40 1,2층",
             "mainphoto": "",
             "url": "https://www.instagram.com/gosran_official/"
@@ -239,6 +279,8 @@
         "fields": {
             "name": "고요산책",
             "location": "제주시",
+            "lat": "33.511811",
+            "lng": "126.523854",
             "address": "제주 제주시 중앙로12길 5 1층 짙은 초록 외관",
             "mainphoto": "",
             "url": "https://www.instagram.com/goyowalk_jeju/"
@@ -250,6 +292,8 @@
         "fields": {
             "name": "노론존 No Lone Zone",
             "location": "제주시",
+            "lat": "33.488437",
+            "lng": "126.484084",
             "address": "제주 제주시 도령로 50 이화오피스텔 중2층 노론존",
             "mainphoto": "",
             "url": "https://www.instagram.com/nolonezone_coffee/"
@@ -260,6 +304,8 @@
         "fields": {
             "name": "디벌트 에스프레소 바",
             "location": "제주시",
+            "lat": "33.491246",
+            "lng": "126.543521",
             "address": "제주 제주시 승천로 88 디벌트 에스프레소 바",
             "mainphoto": "",
             "url": "https://www.instagram.com/divert_coffee/"
@@ -271,6 +317,8 @@
         "fields": {
             "name": "래디컬브루잉클럽 애월점",
             "location": "제주시",
+            "lat": "33.466994",
+            "lng": "126.336311",
             "address": "제주 제주시 애월읍 애월해안로 226 호텔 SALT 건물 1층",
             "mainphoto": "",
             "url": "https://www.instagram.com/radicalbrewingclub/"
@@ -282,6 +330,8 @@
         "fields": {
             "name": "멜버즈",
             "location": "제주시",
+            "lat": "33.476086",
+            "lng": "126.482556",
             "address": "제주 제주시 한라대학로 114 골든스퀘어 1층 멜버즈",
             "mainphoto": "",
             "url": "https://www.instagram.com/melbuzz_slowcity/"
@@ -293,6 +343,8 @@
         "fields": {
             "name": "모리노코에",
             "location": "제주시",
+            "lat": "33.487118",
+            "lng": "126.534397",
             "address": "제주 제주시 구남로2길 30",
             "mainphoto": "",
             "url": "https://www.instagram.com/morinocoe/"
@@ -304,6 +356,8 @@
         "fields": {
             "name": "브라운타임",
             "location": "제주시",
+            "lat": "33.330349",
+            "lng": "126.255055",
             "address": "제주 제주시 한경면 중산간서로 3647 1층",
             "mainphoto": "",
             "url": "https://www.instagram.com/browntime_cafe/"
@@ -315,6 +369,8 @@
         "fields": {
             "name": "서귀피안 베이커리",
             "location": "서귀포시",
+            "lat": "33.435249",
+            "lng": "126.921962",
             "address": "제주 서귀포시 성산읍 신양로122번길 17 2F",
             "mainphoto": "",
             "url": "https://www.instagram.com/seogwipean_bakery/"
@@ -326,6 +382,8 @@
         "fields": {
             "name": "에스프레소라운지",
             "location": "제주시",
+            "lat": "33.480632",
+            "lng": "126.472760",
             "address": "제주 제주시 한라대학로 1",
             "mainphoto": "",
             "url": "https://www.instagram.com/espressolounge_jeju/"
@@ -337,6 +395,8 @@
         "fields": {
             "name": "의문당",
             "location": "서귀포시",
+            "lat": "33.302181",
+            "lng": "126.320748",
             "address": "제주 서귀포시 안덕면 신화역사로304번길 139 1층 의문당",
             "mainphoto": "",
             "url": "https://www.instagram.com/jeju.uimundang/"
@@ -348,6 +408,8 @@
         "fields": {
             "name": "에프터글로우",
             "location": "제주시",
+            "lat": "33.507100",
+            "lng": "126.561648",
             "address": "제주 제주시 간월동로 67-3",
             "mainphoto": "",
             "url": "https://www.instagram.com/afterglow.coffee/"
@@ -359,6 +421,8 @@
         "fields": {
             "name": "여누카페",
             "location": "제주시",
+            "lat": "33.495045",
+            "lng": "126.675688",
             "address": "제주 제주시 조천읍 남조로 1842 1층 여누카페",
             "mainphoto": "",
             "url": "https://www.instagram.com/yeonu_jeju/"
@@ -370,6 +434,8 @@
         "fields": {
             "name": "오후다섯시 두가지착각 조차도",
             "location": "제주시",
+            "lat": "33.552114",
+            "lng": "126.648555",
             "address": "제주 제주시 조천읍 조함해안로 273-37 오후다섯시두가지착각조차도",
             "mainphoto": "",
             "url": "https://www.instagram.com/5pmillusion/"
@@ -425,7 +491,7 @@
         "fields": {
             "name": "에이바우트커피뷰 하귀포구점",
             "lat": "",
-            "lng":"",
+            "lng": "",
             "location": "애월읍",
             "address": "제주 제주시 애월읍 하귀12길 21-2 1~3층",
             "mainphoto": "",
