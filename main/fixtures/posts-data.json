@@ -1,4 +1,5 @@
-[{
+[
+    {
         "model": "main.cafe",
         "pk": "1",
         "fields": {
@@ -448,6 +449,8 @@
             "name": "밀탑 대포점",
             "location": "서귀포시",
             "address": "제주 서귀포시 이어도로343번길 63 담앤루 리조트",
+            "lat":"33.245889",
+            "lng":"126.451606",
             "mainphoto": "",
             "url": "https://www.instagram.com/mealtop_official/"
         }
@@ -459,6 +462,8 @@
             "name": "비에노즈",
             "location": "한림읍",
             "address": "제주 제주시 한림읍 한림해안로 674",
+            "lat":"33.442427",
+            "lng":"126.283564",
             "mainphoto": "",
             "url": "https://www.instagram.com/vienoz_resort/"
         }
@@ -470,6 +475,8 @@
             "name": "어브라운브리즈",
             "location": "제주시",
             "address": "제주 제주시 박성내동길 49-1",
+            "lat":"33.490895",
+            "lng":"126.543962",
             "mainphoto": "",
             "url": "https://www.instagram.com/abrownbreeze_/"
         }
@@ -481,6 +488,8 @@
             "name": "에이바우트커피 함덕점",
             "location": "조천읍",
             "address": "제주 제주시 조천읍 조함해안로 526",
+            "lat":"33.486304",
+            "lng":"126.408093",
             "mainphoto": "",
             "url": "https://www.instagram.com/a.boutcoffee/"
         }
@@ -490,10 +499,10 @@
         "pk": "39",
         "fields": {
             "name": "에이바우트커피뷰 하귀포구점",
-            "lat": "",
-            "lng": "",
             "location": "애월읍",
             "address": "제주 제주시 애월읍 하귀12길 21-2 1~3층",
+            "lat":"33.486304",
+            "lng":"126.408093",
             "mainphoto": "",
             "url": "https://www.instagram.com/aboutview_hagwipogu/"
         }
@@ -505,6 +514,8 @@
             "name": "울트라마린",
             "location": "한경면",
             "address": "제주 제주시 한경면 일주서로 4611",
+            "lat":"33.369417",
+            "lng":"126.206151",
             "mainphoto": "",
             "url": "https://www.instagram.com/ultramarine_jeju/"
         }
@@ -516,6 +527,8 @@
             "name": "유스커피",
             "location": "제주시",
             "address": "제주 제주시 구산로 54 1층",
+            "lat":"33.484330",
+            "lng":"126.540707",
             "mainphoto": "",
             "url": "https://www.instagram.com/still__youth/"
         }
@@ -527,6 +540,8 @@
             "name": "카페몹시",
             "location": "제주시",
             "address": "제주 제주시 월대1길 10",
+            "lat":"33.494544",
+            "lng":"126.433637",
             "mainphoto": "",
             "url": "https://www.instagram.com/jeju_mobsea/"
         }
@@ -538,6 +553,8 @@
             "name": "카페미와",
             "location": "구좌읍",
             "address": "제주 제주시 구좌읍 구좌로 51-1 2층",
+            "lat":"33.523200",
+            "lng":"126.857154",
             "mainphoto": "",
             "url": "https://www.instagram.com/cafe___miwa/"
         }
@@ -549,6 +566,8 @@
             "name": "탐앤탐스 외도점",
             "location": "제주시",
             "address": "제주 제주시 월대5길 6",
+            "lat":"33.494512",
+            "lng":"126.435638",
             "mainphoto": "",
             "url": "https://tomntoms.com/"
         }
@@ -560,6 +579,8 @@
             "name": "트립1849",
             "location": "제주시",
             "address": "제주 제주시 연북로 88",
+            "lat":"33.481548",
+            "lng":"126.490731",
             "mainphoto": "",
             "url": "https://www.instagram.com/trip1849_lounge/"
         }
@@ -571,6 +592,8 @@
             "name": "파스쿠찌 서귀포신시가지점",
             "location": "서귀포시",
             "address": "제주 서귀포시 김정문화로27번길 10-1 카페 파스쿠찌",
+            "lat":"33.252721",
+            "lng":"126.508134",
             "mainphoto": "",
             "url": "http://www.caffe-pascucci.co.kr/"
         }
@@ -581,6 +604,8 @@
         "fields": {
             "name": "풍미독서",
             "location": "구좌읍",
+            "lat":"33.513836",
+            "lng":"126.859110",
             "address": "제주 제주시 구좌읍 세화합전2길 7",
             "mainphoto": "",
             "url": ""
@@ -592,6 +617,8 @@
         "fields": {
             "name": "프립캠프",
             "location": "서귀포시",
+            "lat":"33.246264",
+            "lng":"126.560053",
             "address": "제주 서귀포시 태평로 363 헤이서귀포 2층",
             "mainphoto": "",
             "url": "https://www.instagram.com/fripcamf_jeju/"
