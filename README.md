@@ -1,8 +1,8 @@
 
-<h1> :computer: developer community in jeju :tangerine:  </h1>
+<h1> :computer: Developer Space in jeju :tangerine:  </h1>
 <br>
 
-> 제주도 개발자들을 위한 커뮤니티
+> 제주도 개발자들을 위한 공간
 
 <h3> <p align='center'><b>  배포URL </b></p> </h3>
 
@@ -68,7 +68,7 @@
 | MM.DD | Details | PR | 
 |---|:---:|:---:|
 | 08.28 | project brain storming, role, git(issue, PR) study, TDD study |[.github](https://github.com/kim-seo-hyun/jejucoding_basecamp/tree/main/.github)|
-| 08.29 | study for Frontend |:---:|
+| 08.29 | study for Frontend, Frontend Layout Setting |:---:|
 | 08.30 | study for Backend |:---:|
 | 08.31 | DB migration error! change repository |:---:|
 | 09.01 | create baseline, solved error, FE, BE, DB | [#2](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/2), [#3](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/3), [#4](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/4), [#5](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/5), [#6](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/6), [#8](https://github.com/kim-seo-hyun/jejucoding_basecamp/pull/8) |
