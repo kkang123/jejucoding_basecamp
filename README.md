@@ -22,10 +22,10 @@
 
 ## 2. Roles
 
-- 김서현(PM, BE)
+- 김서현(PM, FE, BE)
 - 김지헌(FE, BE) 
 - 최다봄(FE, BE)
-- 김남우(BE) 
+- 김남우(FE, BE) 
 
 
 ## 3. 프로젝트 구조와 개발 일정
@@ -36,8 +36,6 @@
    ├─ .gitignore
    ├─ .github
    ├─ README.md
-   ├─ Dockerfile
-   ├─ Docker compose		
    ├─ requirements.txt		
    ├─ config/	          
    │  ├─ __init__.py
@@ -78,7 +76,7 @@
 
 
 ## 4. Usage
-python v3.8.8, Django v3.2
+python v3.8.8, Django v3.2, AWS EC2
 
 ```
 git clone https://github.com/kim-seo-hyun/jejucoding_basecamp.git
