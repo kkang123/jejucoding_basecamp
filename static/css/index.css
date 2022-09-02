@@ -129,25 +129,13 @@ img {
 
 button.btn1 {
     position: absolute;
-    width : 550px;
-    height: 120px; 
-    top: 450px;
+    width : 80%;
+    height: 45%; 
+    top: 350px;
     left : 250px; 
     opacity: 0;
     cursor:pointer;
     transform: rotate(-20deg);
     border-radius: 50px 50px 50px 50px
     }
-    
-
-    button.btn2 {
-    position: absolute;
-    width : 550px;
-    height: 120px; 
-    top: 600px;
-    left : 300px;
-    opacity: 0;
-    cursor:pointer;
-    transform: rotate(-20deg);
-    border-radius: 50px 50px 50px 50px
-    }
+     
