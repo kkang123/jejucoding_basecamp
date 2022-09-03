@@ -21,9 +21,9 @@
     <header>
         <section class="hbody">
           <article class="nav">
-          <div class="title"><a href="/index">SpaceForDevelopers</a></div>
+          <div class="title"><a href="/">SpaceForDevelopers</a></div>
           <ul id="menu">
-            <li class="menu-item"><a href="/index">Home</a></li>
+            <li class="menu-item"><a href="/">Home</a></li>
             <li class="menu-item"><a href="/cafelist">Space list</a></li>
             <li class="menu-item" onclick="kakaoLogin();">
                 <a href="javascript:void(0)">
@@ -81,14 +81,12 @@
     </header>
 
 
-    <section>
-        <div class="container">
          {% load static %}
-         <img src="{% static 'jeju.jpg' %}">
-
          <!-- 버튼 이벤트 -->
-         <a href="./"><button class="btn1" type="button" onclick="javascript:sensorBtnClick('btn1');">버튼1</button></a> 
-    </section>
+           <a href="/map">
+          <!--<button class="btn1" type="button" onclick="javascript:sensorBtnClick('btn1');">버튼1</button>-->
+            <img src="{% static 'jeju.jpg' %}">
+          </a> 
 
  
     <!-- footer -->
