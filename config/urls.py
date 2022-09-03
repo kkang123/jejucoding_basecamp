@@ -6,10 +6,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/',admin.site.urls),
-    path('index',index),
+    path('',index),
     path('cafelist/',cafelist),
     path('cafelist/<int:pk>/',cafedetails),
-    path('', maps),
+    path('map', maps),
 ]
 
 urlpatterns +=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
