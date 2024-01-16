@@ -3,6 +3,9 @@
 <br>
 
 
+<p align="center"><img src="https://github.com/kim-seo-hyun/jejucoding_basecamp/assets/85389685/e9c94911-44db-4e9e-a4d0-10834ab3f9b2" width="400" height="500"/>
+
+
 ![SpaceforDevelopers final](https://user-images.githubusercontent.com/87296126/188263374-609dea93-41b8-40d1-b496-6c9dfa6741ef.gif)
 
 
